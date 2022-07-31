@@ -21,5 +21,5 @@ class ContactForm(forms.ModelForm):
             'category',
             'subject',
             'body',
-            Submit('submit','Submit', css_class='btn-success') 
+            Submit('submit', 'Submit', css_class='btn-success') 
         )

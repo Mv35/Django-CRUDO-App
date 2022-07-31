@@ -20,5 +20,4 @@ class ContactView(View):
             form.save()
             form = self.form_class()
 
-
         return render(request, self.template_name, {'form': form})
